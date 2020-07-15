@@ -1,15 +1,15 @@
 {
-	"people": [{
-			"name": "Krishaang",
-			"age": 11
+	"web": [{
+			"name": "GAMEfire",
+			"dateLaunched": "24 june 2020"
 		},
 		{
-			"name": "Anupriya",
-			"age": 26
+			"name": "",
+			"": 
 		},
 		{
-			"name": "Ashish",
-			"age": 42
+			"name": "",
+			"": 
 		}
 	]
 }
