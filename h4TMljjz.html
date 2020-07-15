@@ -6,7 +6,7 @@
 	
 </head>
 <body>
-	<ul id="people">
+	<ul id="web">
 		
 	</ul>
 	<script>
@@ -15,13 +15,13 @@
 		if (this.readyState == 4 && this.status == 200) {
 		   // Typical action to be performed when the document is ready:
 		   var response = JSON.parse(xhttp.responseText);
-			var people = response.people ;
+			var web = response.web ;
 			
 			var output = '';
-			for(var i = 0;i < people.length; i++){
-				output += '<li>' + people[i].name + '</li>';
+			for(var i = 0;i < web.length; i++){
+				output += '<li>' + web[i].name + '</li>';
 			}
-			document.getElementById('people').innerHTML = output;
+			document.getElementById('web').innerHTML = output;
 		}
 	};
 	xhttp.open("GET", "https://krishaang-sinha.github.io/simple-test/test.json", true);
