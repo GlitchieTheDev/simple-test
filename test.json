@@ -4,12 +4,16 @@
 			"dateLaunched": "24 june 2020"
 		},
 		{
-			"id": "Doctype-html",
+			"id": "Doctype html",
 			"dateLaunched": "Unknown"
 		},
 		{
 			"id": "HTML5 editor",
 			"dateLaunched": "Unknown"
+		}
+		{
+			"id": "Updated Doctype-html on 16-07-2020",
+			"dateLaunched": "16-07-2020"
 		}
 	]
 }
